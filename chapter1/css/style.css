@@ -1,0 +1,46 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.div1 {
+  width: 500px;
+  height: 500px;
+  background: #07e5bd;
+  color: #fff;
+  text-align: center;
+  background-image: url("cat.jpg");
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 50px 50%;
+}
+/* span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  margin: 10px 0;
+} */
+
+p {
+  display: inline;
+}
+
+.div2 {
+  width: 150px;
+  height: 150px;
+  background: #555;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.div1 h1:hover {
+  color: #ffe607;
+  letter-spacing: 3px;
+}
+h1 {
+  transition: all 0.5s linear;
+}
+
+.div1 h1 span {
+  color: #ff0000;
+}
