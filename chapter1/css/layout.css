@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(to right, #f94f4f, #f957ff, #ae25ca);
+  position: sticky;
+  top: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo h1 {
+  font-size: 40px;
+}
+
+.logo h1::first-letter {
+  color: #fff;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.logs button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logs button:hover {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+}

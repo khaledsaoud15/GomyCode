@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* body {
+  background-image: url(zoroo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+} */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background: #000000a9;
+  color: red;
+  position: sticky;
+  top: 0;
+}
+
+.links a {
+  margin: 0 20px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header {
+  background: #f3f3f3;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.content {
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content::after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -5%;
+  background: #000;
+  height: 4px;
+  width: 30%;
+}
+.content::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -5%;
+  background: #000;
+  height: 100%;
+  width: 4px;
+}
+
+.content p {
+  margin: 20px 0;
+  line-height: 30px;
+}
+
+.content h1 {
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-align: center;
+}
+
+.content button {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #f72424, #690101);
+  color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+}
+
+.cat {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h1 {
+  margin: 15px 0;
+}
+
+.card p {
+  line-height: 25px;
+  color: #757575;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #000;
+  color: #fff;
+  height: 20vh;
+}
+
+.links-footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social p {
+  margin: 0 10px;
+}
